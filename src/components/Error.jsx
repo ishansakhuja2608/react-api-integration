@@ -8,7 +8,7 @@ const Error = ({ title, message, onConfirm }) => {
       {onConfirm && (
         <div id="confirmation-actions">
           <button onClick={onConfirm} className="button">
-            Okay
+            Okay.
           </button>
         </div>
       )}
